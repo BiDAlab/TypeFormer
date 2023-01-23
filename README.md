@@ -5,6 +5,7 @@ Welcome!
 In this page we provide all the necessary information to replicate the experimental protocol of the benchmark evaluation of TypeFormer, a novel Transformer-based mobile keystroke verification system proposed in [\[1\]](https://arxiv.org/abs/2212.13075). The model development and evaluation described is carried out over the Aalto Mobile Keystroke Database [\[2\]](https://userinterfaces.aalto.fi/typing37k/resources/Mobile_typing_study.pdf). 
 The followed experimental protocol is also adopted in [\[3\]](https://arxiv.org/abs/2212.13075), [\[4\]](https://ieeexplore.ieee.org/document/9539873). 
 
+
 # Introductory Description of the Raw Data
 
 The database is available for download [here](https://userinterfaces.aalto.fi/typing37k/). We selected the following option for download:
@@ -14,6 +15,7 @@ The database is available for download [here](https://userinterfaces.aalto.fi/ty
 In the .zip file downloaded, we have considered the files “keystrokes.csv” and “test_sections.csv” inside the “Data_Raw” folder:
 -	“keystrokes.csv” contains each single key pressed included in the database, linking it to the specific acquisition session through the ‘TEST_SECTION_ID’ field.
 -	“test_sections.csv” contains information about each single acquisition session in the database, linking it to the specific subject through the ‘PARTICIPANT_ID’ field.
+-	
 
 # Benchmark Evaluation of TypeFormer
 
@@ -38,18 +40,19 @@ The results contained in the table are expressed in terms of EER (%), and obtain
 | 100 | **TypeFormer** [\[1\]](https://arxiv.org/abs/2212.13075) | **8.00** | **6.29** | **4.79** | **4.40** | **3.90** |
 
 
-# Data Subjects and Data Acquisition Sessions Used for Evaluation
-
-The evaluation enrolment and verification user and sessions are reported in the file section of this repository.
-
-# Experimental Protocol in Detail
+# Experimental Protocol
 The genuine and impostor score distributions are subject-specific. 
 
 For each subject, genuine scores are obtained comparing the number enrolment sessions (*E*) with 5 verification sessions. The Euclidean distances are computed for each of the verification sessions with each of the *E* enrolment sessions, and then values are averaged over the enrolment sessions. Therefore, for each subject there are 5 genuine scores, one for each verification session. 
 
 Concerning the impostor score distribution, for every other subject in the evaluation set, the averaged Euclidean distance value is obtained considering 1 verification session and the above-mentioned 5 enrolment sessions. Consequently, for each subject, there are 999 impostor scores. Based on such distributions, the EER score is calculated per subject, and all EER values are averaged across the entire evaluation set. 
 
+# Data Subjects and Data Acquisition Sessions Used for Evaluation
+
 For each subject, the enrolment sessions are the chosen in a orderly fashion from the first 10. For *E* = 1, the enrolment session chosen will be the first one. For *E* = 2, the enrolment sessions will be the first two, and so on. The verification sessions selected are always the last 5 sessions out of the 15 sessions per subject considered. 
+
+All data sessions used for evaluation, separated by user, are reported in the file section of this repository.
+
 
 # References
 
