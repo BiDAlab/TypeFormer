@@ -65,4 +65,4 @@ Int. Conf. on Human-Computer Interaction with Mobile Devices and Services, 2019.
 
 
 
-Contact: [giuseppe.stragapede@uam.es](mailto:giuseppe.stragapede@uam.es)
+**Contact: [giuseppe.stragapede@uam.es](mailto:giuseppe.stragapede@uam.es)**
