@@ -15,7 +15,7 @@ The database is available for download [here](https://userinterfaces.aalto.fi/ty
 In the .zip file downloaded, we have considered the files “keystrokes.csv” and “test_sections.csv” inside the “Data_Raw” folder:
 -	“keystrokes.csv” contains each single key pressed included in the database, linking it to the specific acquisition session through the ‘TEST_SECTION_ID’ field.
 -	“test_sections.csv” contains information about each single acquisition session in the database, linking it to the specific subject through the ‘PARTICIPANT_ID’ field.
--	
+
 
 # Benchmark Evaluation of TypeFormer
 
