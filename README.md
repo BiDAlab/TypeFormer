@@ -61,9 +61,9 @@ All data sessions used for evaluation, separated by subject, are reported in the
 [\[2\] *Kseniia Palin, Anna Feit, Sunjun Kim, Per Ola Kristensson, and Antti Oulasvirta, "How do people type on mobile devices? Observations from a study with 37,000 volunteers", Proc. of the 21st
 Int. Conf. on Human-Computer Interaction with Mobile Devices and Services, 2019.*](https://userinterfaces.aalto.fi/typing37k/resources/Mobile_typing_study.pdf)
 
-[\[3\] *Giuseppe Stragapede, Paula Delgado-Santos, Ruben Tolosana, Ruben Vera-Rodriguez, Richard Guest, and Aythami Morales, “Mobile Keystroke Biometrics Using Transformers”, Proc. of the Int. Conf. on Face and Gesture Recognition (FG) 2023.*](https://arxiv.org/abs/2212.13075) 
+[\[3\] *Giuseppe Stragapede, Paula Delgado-Santos, Ruben Tolosana, Ruben Vera-Rodriguez, Richard Guest, and Aythami Morales, “Mobile Keystroke Biometrics Using Transformers”, Proc. of the Int. Conf. on Face and Gesture Recognition (FG), 2023.*](https://arxiv.org/abs/2212.13075) 
 
-[\[4\] *Alejandro Acien, Aythami Morales, John V. Monaco, Ruben Vera-Rodriguez, and Julian Fierrez, "TypeNet: Deep learning keystroke biometrics." IEEE Transactions on Biometrics, Behavior, and Identity Science (TBIOM), 4.1 (2021): 57-70.*](https://ieeexplore.ieee.org/document/9539873)
+[\[4\] *Alejandro Acien, Aythami Morales, John V. Monaco, Ruben Vera-Rodriguez, and Julian Fierrez, "TypeNet: Deep learning keystroke biometrics." IEEE Transactions on Biometrics, Behavior, and Identity Science (TBIOM), 4.1 (2021): 57-70, 2021.*](https://ieeexplore.ieee.org/document/9539873)
 
 
 
