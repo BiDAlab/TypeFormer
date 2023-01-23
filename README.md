@@ -51,7 +51,7 @@ Concerning the impostor score distribution, for every other subject in the evalu
 
 For each subject, the enrolment sessions are the chosen in a orderly fashion from the first 10 sessions. For *E* = 1, the enrolment session chosen will be the first one. For *E* = 2, the enrolment sessions will be the first two, and so on. The verification sessions selected are always the last 5 sessions out of the 15 sessions per subject considered. 
 
-All data sessions used for evaluation, separated by subject, are reported in the file section of this repository.
+All data sessions used for evaluation, separated by subject, are reported in the file section of this repository in the "TypeFormer_benchmark_sessions.json" file uploaded. Each key corresponds to a user identified by their "PARTICIPANT_ID" in the raw data of the Aalto Mobile Keystroke Database. For each user keys, each of the list elements correspond to the "TEST_SECTION_ID".
 
 
 # References
